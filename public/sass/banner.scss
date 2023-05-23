@@ -1,0 +1,42 @@
+@use "conf";
+
+.banner {
+  background-color: map-get($map: conf.$background-colors, $key: banner-footer);
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-logo {
+    width: 20%;
+}
+.animate-charcter
+{
+  font-family: Phantomsans, sans-serif;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #05b8de 10%,
+    #DB0490 29%,
+    #6610F2 67%,
+    #045CDB 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 70px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

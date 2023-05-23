@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sass compile React",
+            "type": "shell",
+            "command": "sass --no-source-map --watch public/sass/main.scss public/index.css"
+        }
+    ]
+  }
+  

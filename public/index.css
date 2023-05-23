@@ -1,0 +1,164 @@
+/* Mapas de colores */
+.banner {
+  background-color: #242a76;
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-logo {
+  width: 20%;
+}
+
+.animate-charcter {
+  font-family: Phantomsans, sans-serif;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #05b8de 10%, #DB0490 29%, #6610F2 67%, #045CDB 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 70px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+#table-employees {
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  border-radius: 30px 10px 30px 10px;
+  border-color: #045CDB;
+  border-style: solid;
+  margin: 5% 5% 5% 5%;
+}
+
+#difuminado {
+  background: linear-gradient(180deg, #ffffff 0%, #8577c8 100%);
+  padding: 1%;
+}
+
+#footer {
+  background: #242a76;
+}
+
+#img-footer {
+  width: 300px;
+  margin: 0% 25%;
+}
+
+.redes {
+  opacity: 0.7;
+}
+.redes #whatsapp {
+  width: 35%;
+  margin: 10% 0% 10% 100%;
+}
+.redes #linkedin {
+  width: 35%;
+  margin: 10% 0% 10% 30%;
+}
+.redes #github {
+  width: 35%;
+  margin: 8% 0% 10% -35%;
+}
+
+.titulos_footer {
+  font-family: Phantomsans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2vw;
+  text-align: left;
+  margin: 5% 0%;
+  margin-bottom: 5%;
+  color: #c2c2c2;
+}
+
+.info_footer {
+  font-family: Phantomsans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #c2c2c2;
+}
+.info_footer p {
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.div-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: #05062d;
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.inputField {
+  width: 40%;
+}
